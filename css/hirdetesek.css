@@ -1,0 +1,127 @@
+.hirdetesek-tabla {
+	width: 100%;
+}
+
+
+.hirdetesek-tabla table,
+.hirdetes-maga table {
+	width: 80%;
+	table-layout: fixed;
+	margin: 0 auto;
+	animation: adAnimation 1s ease-in-out;
+}
+
+.hirdAnim:hover{
+	animation: pBTNhover 0.5s ease-in-out;
+}
+
+/*.hirdetesek-tabla table tr,
+.hirdetes-maga table tr {
+	height: 2em;
+}*/
+
+.hirdetesek-tabla table td,
+.hirdetes-maga table td {
+	border: 1px solid #ddd;
+	padding: 1em;
+}
+
+.hirdetesek-tabla table th,
+.hirdetes-maga table th {
+	border: 1px solid #ddd;
+	padding: 1em;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 15px;
+}
+
+table {
+	width: 100%;
+}
+/*eredeti hirdetes formatum ha kene */
+    /*<div class="container hirdetes-maga">
+	<p><b><a href="profile.php?userid=<?= $felh['id']; ?>"><?= $felh['vezeteknev']; ?></a></b> <br><br><a href="hirdetes.php?postid=<?= $post['id']; ?>"><?= $post['title'];?></a><br><br><i><?= $post['text']; ?></i> 
+	</div>*/
+.sorrendDoboz{
+	float: right;
+	padding-left: 80px;
+}
+
+.szelessegNovel{
+	max-width: 90%;
+}
+
+.pageButtons{
+	padding-top: 40px;
+	text-align: center;
+}
+
+.hirdetesek-kereso {
+	width: 100%;
+}
+
+.ad-cover-img{
+	max-height: 170px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 90%;
+}
+
+.numbtn{
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.numbtn:hover{
+	animation: pBTNhover 0.5s ease-in-out;
+	color: #7fad39;
+	border: 1px solid #7fad39;
+}
+
+@media (max-width: 1000px) {
+	table {
+		display: block; /* Change table display to block for stacking */
+	}
+	tr {
+		display: block; /* Change row display to block for stacking */
+		
+	}
+	td {
+		display: block; /* Change cell display to block for stacking */
+		 /* Make cells full width in mobile view */
+	}
+	.sorrendDoboz{
+        padding-top: 30px;
+		padding-bottom: 30px;
+		margin-left: 20%;
+    }
+}
+
+@keyframes adAnimation {
+	0% {
+        opacity: 0;
+		margin-top: 40px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pBTNhover {
+	0% {
+	  transform: scale(1);
+	}
+	100% {
+	  transform: scale(1.05);
+	}
+  }

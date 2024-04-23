@@ -1,0 +1,46 @@
+.uploadForm{
+    max-width: 40%;
+    min-width: 350px !important;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 40px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #7fad39, 10px 10px 8px #a8e64c, 15px 15px 8px #d2e8af;
+    animation: upAnim 1s ease-in-out;
+}
+
+.selectCategory{
+    float: middle;
+    width: 20%;
+    margin-left: 40%
+}
+
+hr{
+    color: rgb(187, 187, 187);
+}
+
+@keyframes upAnim {
+    0% {
+        opacity: 0;
+        margin-left: 200px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*.uploadForm{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #7fad39, 10px 10px 8px #a8e64c, 15px 15px 8px #d2e8af;
+    max-width: 400px;
+    
+}  */  

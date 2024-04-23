@@ -1,0 +1,218 @@
+body{
+	background-color: white;
+}
+#new_img_sty{
+	background-color: red;
+}
+#cucc {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#file-chosen{
+  margin-left: 0.3rem;
+  font-family: sans-serif;
+}
+
+#upsty{
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#hirfel{
+	background-color: #008000;
+	border: 1px solid black;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	width: 150px;
+	letter-spacing: 2px;	
+}
+
+.profimg{
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+.profimg2{
+	width: 200px;
+	height: 220px;
+	border-radius: 20px;
+	margin-top: 10px;
+	padding: auto;
+}
+
+.profstyle{
+	border: 1px solid black;
+	border-top: 0px;
+	height: 350px;
+	text-align: center;
+	background-color: #7fad39;
+	animation: profAnim 1s ease-in-out;
+}
+
+#kv{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#em{
+	margin-bottom: 14px;
+}
+
+#profszer{
+	background-color: #008000;
+	border: 1px solid black;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	width: 150px;
+	letter-spacing: 2px;
+}
+
+.hirdetesek-tabla {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hirdetesek-tabla table,
+.hirdetes-maga table {
+	width: 80%;
+	table-layout: fixed;
+	margin: 0 auto;
+	animation: profAnim 1s ease-in-out;
+}
+
+
+
+.hirdetesek-tabla table td,
+.hirdetes-maga table td {
+	border: 1px solid Olive;
+	padding: 1em;
+	color: black;
+}
+
+.hirdetesek-tabla table th,
+.hirdetes-maga table th {
+	border: 1px solid #ddd;
+	padding: 1em;
+}
+
+#hirto{
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+
+.cardsty{
+	border: 1px solid black;
+	height: 500px;
+	text-align: center;
+	border-top: 0;
+}
+
+#adatsty{
+	margin: auto;
+	padding: 0;
+	text-align: center;
+}
+
+#lab1{
+	width: 170px;
+}
+#lab2{
+	width: 170px;
+}
+#lab3{
+	width: 200px;
+}
+#lab4{
+	width: 170px;
+}
+
+#lab5{
+	width: 170px;
+}
+
+#hirform{
+	margin-top: 5px;
+	text-align: center;
+	padding: 5px;
+}
+
+#hirszer{
+	margin-bottom: 7px;
+}
+
+#hirdetesfela{
+	border: 1px solid black;
+	margin: auto;
+	margin-left: 15px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #7fad39;
+	color: white;
+	border-radius: 20px;
+	font-size: 16px;
+}
+
+.fagy{
+	background: lightblue ;
+	width: 70%;
+	margin-bottom: 5px;
+}
+
+.vissza{
+	background: lightgoldenrodyellow;
+	width: 70%; 
+	margin-bottom: 5px;
+}
+
+.tiltva{
+	background: gold;
+	width: 70%;
+	margin-bottom: 5px;
+}
+
+.torles{
+	background: lightcoral;
+	width: 70%;
+}
+
+@keyframes profAnim {
+	0% {
+	  opacity: 0;
+	  margin-top: 40px;
+	}
+	100% {
+	  opacity: 1;
+	}
+	
+}
+
+@media (max-width: 600px) {
+	table {
+		display: block; /* Change table display to block for stacking */
+	}
+	tr {
+		display: block; /* Change row display to block for stacking */
+		
+	}
+	td {
+		display: block; /* Change cell display to block for stacking */
+		 /* Make cells full width in mobile view */
+	}
+}

@@ -1,0 +1,53 @@
+
+.hirdetes-body{
+    margin: 40px;
+}
+
+.hirdetes-card{
+    background-color:#F3F6FA;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.profil-card{
+    text-align: center;
+    background-color:#F3F6FA;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    max-height: 350px;
+}
+
+.img-profil{
+	border-radius: 50%;
+	margin: 20px;
+	width: 200px;
+}
+
+.float-left{
+    float:left;
+}
+
+.row {
+    display: flex;
+}
+
+.col-sm-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-sm-5 .main-picture {
+    flex: 1;
+    margin-bottom: 10px; /* Adjust the gap between images as needed */
+}
+
+.report{
+    float: right;
+} 
