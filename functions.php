@@ -50,7 +50,7 @@
 	// regisztráció function
 	function Reg($vezeteknev, $keresztnev, $felh, $email, $pass){
 			$hashed_pass = password_hash($pass, PASSWORD_DEFAULT);
-			$conn = new mysqli("localhost", "team05", "DYJlbCv0KCTN537", "team05");
+			$conn = new mysqli("localhost", "root", "", "helpinghands");
 			$lekerdezes = "SELECT * FROM users WHERE felhasznalonev='$felh'";
 			$talalt_felhasznalo = $conn->query($lekerdezes);
 			$emailLekerdez = "SELECT * FROM users WHERE email='$email'";
@@ -96,7 +96,7 @@
 
 	// hirdetés feltöltés funkció	
 	function adUpload($userid, $title, $location, $description, $category, $uploadedFiles){
-		$conn = new mysqli("localhost", "team05", "DYJlbCv0KCTN537", "team05");
+		$conn = new mysqli("localhost", "root", "", "helpinghands");
 		$mainPic = isset($uploadedFiles[0]) ? $uploadedFiles[0] : "default.jpg";
 		$secondPic = isset($uploadedFiles[1]) ? $uploadedFiles[1] : "default.jpg";
 		$thirdPic = isset($uploadedFiles[2]) ? $uploadedFiles[2] : "default.jpg";
