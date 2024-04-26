@@ -160,7 +160,7 @@
 						<input type="text" id="lab2" name="keresztnev" value="<?= $felhasznalo['keresztnev']; ?>"><br>
 						<label for="lab3">Email:</label>
 						<input type="email" id="lab3" name="email" value="<?= $felhasznalo['email']; ?>"><br>
-						<input type="submit" name="profil-btn" value="Adatok frissítése">
+						<input type="submit" name="profil-btn" id="adatfel" value="Adatok frissítése">
 					</form>
 				</div>
 				<div class="col">
