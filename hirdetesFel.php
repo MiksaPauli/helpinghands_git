@@ -166,4 +166,13 @@
 	<script src="https://kit.fontawesome.com/6881cff645.js" crossorigin="anonymous"></script>
 
 </body>
-</html>  
+</html>
+<style>
+	@media (max-width: 768px) {
+		.uploadForm{
+			margin-left: 25px;
+      margin-right: 25px;
+      max-width: 100%;
+		}
+	}
+</style>   
