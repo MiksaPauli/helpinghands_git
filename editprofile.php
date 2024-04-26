@@ -211,3 +211,31 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
 <script src="https://kit.fontawesome.com/6881cff645.js" crossorigin="anonymous"></script>
+<style>
+  @media (max-width: 768px) {
+		.cardsty{
+			height: 700px;
+			text-align: center;
+			border-top: 0;
+			position: realtive;
+		}
+		#adatfel{
+			margin: 10px;
+			margin-bottom: 20px;
+		}
+		#jelszofel{
+			margin: 10px;
+		}
+		#profszer{
+			background-color: #008000;
+			border: 1px solid black;
+			padding: 6px;
+			color: white;
+			font-weight: bold;
+			font-size: 15px;
+			width: 150px;
+			letter-spacing: 2px;
+			margin-top: 20px;
+		}
+    }
+</style>
