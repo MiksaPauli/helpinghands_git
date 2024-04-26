@@ -169,7 +169,7 @@
 						<input type="password" id="lab4" name="jelenlegi"><br>
 						<label for="lab5">Új jelszó:</label>
 						<input type="password" id="lab5" name="uj"><br>
-						<input type="submit" name="password-btn" value="Jelszó frissítése">
+						<input type="submit" name="password-btn" id="jelszofel" value="Jelszó frissítése">
 					</form>
 				</div>
 			</div>
